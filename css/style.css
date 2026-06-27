@@ -4035,7 +4035,7 @@ ul {
 @media (max-width: 576px) {
   /* line 17, E:/172 Etrain Education/172_Etrain_Education_html/sass/_special_cource.scss */
   .special_cource .single_special_cource {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   /* line 22, E:/172 Etrain Education/172_Etrain_Education_html/sass/_special_cource.scss */
   .special_cource .single_special_cource .special_img {
@@ -4057,7 +4057,7 @@ ul {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 17, E:/172 Etrain Education/172_Etrain_Education_html/sass/_special_cource.scss */
   .special_cource .single_special_cource {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 }
 
@@ -7505,4 +7505,31 @@ h6 {
 .table th {
   background: #f8f9fa;
   font-weight: 600;
+}
+
+.umkm-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.umkm-card h4 {
+  margin-bottom: 8px;
+}
+
+.umkm-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.umkm-card button {
+  width: 100%;
+  margin-top: 10px;
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
 }

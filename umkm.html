@@ -103,8 +103,8 @@
                     <div class="single_special_cource">
                         <img src="img/umkm2.jpeg" height="240px" width="100%" class="special_img" alt="">
                         <div class="special_cource_text">
-                            <a href="#" onclick="pesantelur()" class="btn_4">Pesan</a>
-                            <h3>Pipiti & Dapur Studio</h3>
+                            <a href="#" onclick="pesanpipiti()" class="btn_4">Pesan</a>
+                            <h3>Pipiti</h3>
                             <div class="author_info">
                                 <div class="author_rating">
                                     <div class="rating">
@@ -123,10 +123,10 @@
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="single_special_cource">
-                        <img src="img/umkm4.jpeg" height="240px" width="100%" class="special_img" alt="">
+                        <img src="img/umkm3.jpeg" height="240px" width="100%" class="special_img" alt="">
                         <div class="special_cource_text">
-                            <a href="#" onclick="pesanrajut()" class="btn_4">Pesan</a>
-                            <h3>Gula Aren</h3>
+                            <a href="#" onclick="pesananyaman()" class="btn_4">Pesan</a>
+                            <h3>Dapur Studio</h3>
                             <div class="author_info">
                                 <div class="author_rating">
                                     <div class="rating">
@@ -145,10 +145,10 @@
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="single_special_cource">
-                        <img src="img/umkm1.jpeg" height="240px" width="100%" class="special_img" alt="">
+                        <img src="img/umkmn.jpeg" height="240px" width="100%" class="special_img" alt="">
                         <div class="special_cource_text">
-                            <a href="#" onclick="pesansaroja()" class="btn_4">Pesan</a>
-                            <h3>Sapu Injuk</h3>
+                            <a href="#" onclick="pesanratu()" class="btn_4">Pesan</a>
+                            <h3>Kelompok UMKM</h3>
                             <div class="author_info">
                                 <div class="author_rating">
                                     <div class="rating">
@@ -165,9 +165,63 @@
 
                     </div>
                 </div>  
-            </div> 
+            </div>
+            <div class="row mt-5">
+
+    <!-- Sapu Injuk -->
+    <div class="col-sm-6 col-lg-4">
+        <div class="single_special_cource">
+            <img src="img/umkm1.jpeg" height="240px" width="100%" class="special_img" alt="">
+            <div class="special_cource_text">
+                <a href="#" onclick="pesansapu()" class="btn_4">Pesan</a>
+                <h3>Sapu Injuk</h3>
+
+                <div class="author_info">
+                    <div class="author_rating">
+                        <div class="rating">
+                            <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                            <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                            <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                            <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                            <a href="#"><img src="img/icon/star.svg" alt=""></a>
+                        </div>
+                        <p>4.5 Ratings</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+
+    <!-- Produk Baru -->
+    <div class="col-sm-6 col-lg-4">
+        <div class="single_special_cource">
+            <img src="img/umkm4.jpeg" height="240px" width="100%" class="special_img" alt="">
+            <div class="special_cource_text">
+                <a href="#" onclick="pesangula()" class="btn_4">Pesan</a>
+                <h3>Gula Aren</h3>
+
+                <div class="author_info">
+                    <div class="author_rating">
+                        <div class="rating">
+                            <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                            <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                            <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                            <a href="#"><img src="img/icon/color_star.svg" alt=""></a>
+                            <a href="#"><img src="img/icon/star.svg" alt=""></a>
+                        </div>
+                        <p>4.5 Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>            
+        </div>
+    </div>
+</div>
+</div>
+</section>
     <br><br><br><br><br>
     <!--::blog_part end::-->
 
@@ -343,9 +397,9 @@
     <!-- custom js -->
     <script src="js/custom.js"></script>
     <script>
-        function pesanrajut() {
+        function pesanpipiti() {
               // Nomor WhatsApp penerima
-              var phoneNumber = "+6282358960356";
+              var phoneNumber = "+6283843882532";
             
               // Pesan yang akan dikirim
               var message = "";
@@ -359,7 +413,23 @@
 
     </script>
     <script>
-        function pesantelur() {
+        function pesanratu() {
+              // Nomor WhatsApp penerima
+              var phoneNumber = "+6281312656201";
+            
+              // Pesan yang akan dikirim
+              var message = "";
+            
+              // Membentuk URL untuk meluncurkan WhatsApp dengan pesan tertentu
+              var url = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+            
+              // Membuka URL dalam tab atau jendela baru
+              window.open(url);
+            }
+
+    </script>
+    <script>
+        function pesananyaman() {
               // Nomor WhatsApp penerima
               var phoneNumber = "+6281221585671";
             
@@ -374,23 +444,38 @@
             }
 
     </script>
+    <script>
+        function pesansapu() {
+              // Nomor WhatsApp penerima
+              var phoneNumber = "+6287846772644";
+            
+              // Pesan yang akan dikirim
+              var message = "";
+            
+              // Membentuk URL untuk meluncurkan WhatsApp dengan pesan tertentu
+              var url = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+            
+              // Membuka URL dalam tab atau jendela baru
+              window.open(url);
+            }
 
-<script>
-    function pesansaroja() {
-          // Nomor WhatsApp penerima
-          var phoneNumber = "+6287846772644";
-        
-          // Pesan yang akan dikirim
-          var message = "";
-        
-          // Membentuk URL untuk meluncurkan WhatsApp dengan pesan tertentu
-          var url = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
-        
-          // Membuka URL dalam tab atau jendela baru
-          window.open(url);
-        }
+    </script>
+    <script>
+        function pesangula() {
+              // Nomor WhatsApp penerima
+              var phoneNumber = "+6282358960356";
+            
+              // Pesan yang akan dikirim
+              var message = "";
+            
+              // Membentuk URL untuk meluncurkan WhatsApp dengan pesan tertentu
+              var url = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+            
+              // Membuka URL dalam tab atau jendela baru
+              window.open(url);
+            }
 
-</script>
+    </script>
 </body>
 
 </html>
